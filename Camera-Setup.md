@@ -13,6 +13,7 @@ A concise, one-page recipe that cures the most common causes of edge-softness or
 
 ## 1 . (Only once) Register & load the driver module
 ```bash
+sudo apt-get install v4l-utils
 sudo depmod -a                      # rebuild module dependency map
 sudo modprobe nv_imx477             # load the IMX477 driver
 sudo systemctl restart nvargus-daemon
