@@ -159,6 +159,7 @@ echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 
 ```bash
 # 4.1 Place your camera driver inside your ROS 2 workspace
+# camera ros link : https://github.com/valentinomario/camera_driver
 # Example path:
 # ~/ros2_ws/src/camera_driver/
 ```
