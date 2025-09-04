@@ -65,6 +65,13 @@ ros2 run demo_nodes_cpp talker
 ros2 run demo_nodes_py listener
 ```
 
+```bash
+sudo apt update
+sudo apt install python3-rosdep
+sudo rosdep init
+rosdep update
+```
+
 ---
 
 ## 🚁 2. MAVROS Installation for ROS 2
