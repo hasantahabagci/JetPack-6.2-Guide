@@ -50,7 +50,15 @@ sudo apt install ros-humble-desktop
 
 # 1.10 Optional development tools
 sudo apt install ros-dev-tools
+
+# 1.11 rosbag2
+sudo apt-get install ros-$ROS2_DISTRO-ros2bag ros-$ROS2_DISTRO-rosbag2* # rosbag utilities (seems to be separate)
+
+# 1.12 libeigen3 libceres
+sudo apt-get install libeigen3-dev libboost-all-dev libceres-dev
 ```
+
+
 
 ```bash
 # 1.11 Add ROS setup to .bashrc for automatic sourcing on terminal launch
