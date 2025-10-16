@@ -184,6 +184,23 @@ python ros_cam_test.py
 
 ---
 
+## 🧭 5. OpenVINS Installation Guide
+
+```bash
+# 5.1 Navigate to your ROS 2 workspace source directory
+cd ~/ros2_ws/src
+
+# 5.2 Clone the OpenVINS repository
+git clone https://github.com/rpng/open_vins/
+
+# 5.3 Go back to the workspace root
+cd ..
+
+# 5.4 Build OpenVINS packages with verbose output
+colcon build --event-handlers console_cohesion+ --packages-select ov_core ov_init ov_msckf ov_eval
+```
+
+
 ## ✅ Final Tips
 
 - Always source the workspace after building new packages:
@@ -196,4 +213,3 @@ python ros_cam_test.py
 ---
 
 Happy Robotics Development!
-
