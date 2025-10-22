@@ -11,6 +11,18 @@ A concise, one-page recipe that cures the most common causes of edge-softness or
 
 ---
 
+## 0.5 . Install Arducam Driver Package
+If you haven’t already installed the Arducam IMX477 driver, run:
+
+```bash
+cd ~
+wget https://github.com/ArduCAM/MIPI_Camera/releases/download/v0.0.3/install_full.sh
+chmod +x install_full.sh
+./install_full.sh -m imx477
+```
+
+---
+
 ## 1 . (Only once) Register & load the driver module
 ```bash
 sudo apt-get install v4l-utils
