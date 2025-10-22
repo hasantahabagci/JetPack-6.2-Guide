@@ -24,7 +24,7 @@ sudo apt install -y \
     libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev \
     libjpeg-dev libpng-dev libtiff-dev \
     libopenexr-dev libtbb2 libtbb-dev \
-    libdc1394-22-dev \
+    libdc1394-dev \
     python3.10-dev python3-numpy
 ```
 
