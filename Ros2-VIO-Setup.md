@@ -117,7 +117,7 @@ sudo ./src/mavros/mavros/scripts/install_geographiclib_datasets.sh
 
 ```bash
 # 2.7 Build the workspace
-colcon build
+colcon build --symlink-install
 ```
 
 ```bash
@@ -174,7 +174,7 @@ echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 
 ```bash
 # 4.2 Build only the camera driver package
-colcon build --symlink-install --package-select camera_driver
+colcon build --symlink-install --packages-select camera_driver
 ```
 
 ```bash
