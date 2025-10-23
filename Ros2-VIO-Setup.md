@@ -170,6 +170,7 @@ echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 # camera ros link : https://github.com/valentinomario/camera_driver
 # Example path:
 # ~/ros2_ws/src/camera_driver/
+git clone https://github.com/valentinomario/camera_driver ~/ros2_ws/src
 ```
 
 ```bash
