@@ -27,6 +27,7 @@ pip install "xformers>=0.0.20"
 ## 3. Install Prebuilt PyTorch & TorchVision Wheels
 
 ```bash
+Follow for better installation: (https://docs.ultralytics.com/guides/nvidia-jetson/#flash-jetpack-to-nvidia-jetson)
 pip3 install \
   https://github.com/ultralytics/assets/releases/download/v0.0.0/torch-2.5.0a0+872d972e41.nv24.08-cp310-cp310-linux_aarch64.whl \
   https://github.com/ultralytics/assets/releases/download/v0.0.0/torchvision-0.20.0a0+afc54f7-cp310-cp310-linux_aarch64.whl
