@@ -73,7 +73,7 @@ python3 -m pip install mavproxy --user git+https://github.com/ArduPilot/mavproxy
 ## 6. Connect to MAVROS2
 
 ```bash
-ros2 launch mavros apm.launch.py fcu_url:="udp://:14550@127.0.0.1:14550"
+ros2 launch mavros apm.launch fcu_url:="udp://:14550@127.0.0.1:14550"
 ```
 
 ## 7. Set MAVLink Message Rate in MAVProxy
