@@ -200,7 +200,7 @@ git clone https://github.com/rpng/open_vins/
 cd ..
 
 # 5.4 Build OpenVINS packages with verbose output
-colcon build --event-handlers console_cohesion+ --packages-select ov_core ov_init ov_msckf ov_eval
+colcon build --symlink-install --event-handlers console_cohesion+ --packages-select ov_core ov_init ov_msckf ov_eval
 ```
 
 
